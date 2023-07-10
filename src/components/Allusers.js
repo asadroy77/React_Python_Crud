@@ -20,6 +20,7 @@ const Allusers = () => {
      console.log(isLoading  + "loading")
      console.log(data)
      console.log(error + "error")
+     //error handling
 
   return (<>
   {data && data.map((item,i)=>(
